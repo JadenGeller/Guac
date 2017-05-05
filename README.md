@@ -96,6 +96,8 @@ Handy helper functions like `unit` and `empty` are defined by Guac. Some functio
 more than a monad. For example, `empty` must be implemented in addition to `lift` and `bind` on your monad
 class to use these functions.
 
+## Usage
+
 ### Requirements
 
 Guac requires an implementation of Python 3 that supports `copy.deepcopy` on generator functions. The most
