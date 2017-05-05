@@ -100,3 +100,15 @@ class to use these functions.
 
 Guac requires an implementation of Python 3 that supports `copy.deepcopy` on generator functions. The most
 common distribution, CPython, is lacking this feature, but [pypy](http://pypy.org) implements it!
+
+### Installation
+
+If you already have the pypy distribution of Python 3, you can install this package with pip:
+```
+pypy3 -m pip install guac
+```
+If you don't yet have pypy, you can download and install it [here](http://pypy.org/download.html). Alternatively,
+if you have Homebrew on macOS, you can run this:
+```
+brew install pypy3
+```
