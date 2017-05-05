@@ -8,7 +8,7 @@ setup(name='guac',
     license='MIT',
     packages=['guac'],
     classifiers=['Intended Audience :: Developers',
-                 'Intended Audience :: Education'
+                 'Intended Audience :: Education',
                  'Topic :: Software Development :: Libraries',
                  'License :: OSI Approved :: MIT License',
                  'Programming Language :: Python :: 3 :: Only',
