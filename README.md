@@ -8,7 +8,7 @@ backtracking searches.
 
 ## Example
 
-Here's an example that computes all the possible ways you can give $0.47 change with pennies, nickels, dimes,
+Here's an example that computes all the possible ways you can give $0.27 change with pennies, nickels, dimes,
 and quarters:
 
 ```python
@@ -21,7 +21,7 @@ def make_change(amount_still_owed, possible_coins):
     # Keep adding coins while we owe them money and there are still coins.
     while amount_still_owed > 0 and possible_coins:
     
-        # "Nondeterministically" choose whether to give anther coin of this value.
+        # "Nondeterministically" choose whether to give another coin of this value.
         # Aka, try both branches, and return both results.
         give_min_coin = yield [True, False]
         
